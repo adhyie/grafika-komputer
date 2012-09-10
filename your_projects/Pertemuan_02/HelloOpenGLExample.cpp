@@ -16,6 +16,15 @@ class HelloOpenGLExample: public GLFWApplication
 	}
 
 	virtual void render(){
+
+			glfwGetMousePos( &x, NULL );
+
+			// Get window size (may be different than the requested size)
+			glfwGetWindowSize( &width, &height );
+
+			// Special case: avoid division by zero below
+			height = height > 0 ? height : 1;
+
 		    // Setup viewport
 		    glViewport( 0, 0, width, height );
 
@@ -52,5 +61,5 @@ class HelloOpenGLExample: public GLFWApplication
 
 int main(void){
 		HelloOpenGLExample app;
-		app.start(800, 600, true, "Hello OpenGL!", true);
+		app.start(800, 600, false, "Hello OpenGL!", true);
 }

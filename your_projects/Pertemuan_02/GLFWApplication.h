@@ -41,15 +41,9 @@ public:
 
 		do
 		{
-			t = glfwGetTime();
-			glfwGetMousePos( &x, NULL );
-
-			// Get window size (may be different than the requested size)
-			glfwGetWindowSize( &width, &height );
-
-			// Special case: avoid division by zero below
-			height = height > 0 ? height : 1;
 			
+			t = glfwGetTime();
+
 			// Your update application logics procedure here ...
 			update(t);
 			
