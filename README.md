@@ -13,6 +13,6 @@ Panduan untuk menjalankan demo program kuliah :
 4. Untuk membuat project baru copy paste folder ProjectTemplate yang berada di direktori 
    your_projects dan rename folder dan semua file didalamnya.
 5. Pada Visual Studio C++ 2010, pilih menu add -> existing projects -> browse file project anda
-   lalu perbaiki references project dengan klik kanan project anda di solution explorer lalu pilih 
-   references -> Remove Reference -> Add New Reference ... -> pilih GLFW dari daftar reference.
+   lalu rename project dan perbaiki references project dengan klik kanan project anda di solution explorer 
+   lalu pilih references -> Remove Reference -> Add New Reference ... -> pilih GLFW dari daftar reference.
 

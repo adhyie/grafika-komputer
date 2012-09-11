@@ -25,8 +25,8 @@ class HelloOpenGLExample: public GLFWApplication
 			// Special case: avoid division by zero below
 			height = height > 0 ? height : 1;
 
-		    // Setup viewport
-		    glViewport( 0, 0, width, height );
+		    	// Setup viewport
+		    	glViewport( 0, 0, width, height );
 
 			// Clear color buffer to black
 			glClearColor( 0.0f, 0.0f, 0.0f, 0.0f );
