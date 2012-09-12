@@ -17,8 +17,6 @@ class HelloOpenGLExample: public GLFWApplication
 
 	virtual void render(void){
 
-		glfwGetMousePos( &x, NULL );
-
 		// Get window size (may be different than the requested size)
 		glfwGetWindowSize( &width, &height );
 

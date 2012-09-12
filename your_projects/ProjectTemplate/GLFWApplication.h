@@ -9,7 +9,7 @@ public:
 	virtual void init(void) = 0;
 	virtual void update(double time) = 0;
 	virtual void render(void) = 0;
-	int width, height, x;
+	int width, height;
 	double t;
 
 	void start(int width, int height, bool fullscreen, const char * title, bool vsync){
