@@ -6,12 +6,30 @@
 class GLFWApplication
 {
 public:
-	virtual void init() = 0;
+	virtual void init(void) = 0;
 	virtual void update(double time) = 0;
-	virtual void render() = 0;
+	virtual void render(void) = 0;
 	int width, height, x;
-    double t;
+	double t;
+
 	void start(int width, int height, bool fullscreen, const char * title, bool vsync){
+
+		// Create application's window
+		initWindow(width, height, fullscreen, title, vsync);
+
+		// Initialisation procedure
+		init();
+
+		// Application loop
+		loop();
+
+		// Close OpenGL window and terminate GLFW
+		glfwTerminate();
+
+		exit( EXIT_SUCCESS );
+	}
+
+	void initWindow(int width, int height, bool fullscreen, const char * title, bool vsync){
 		// Initialise GLFW
 		if( !glfwInit() )
 		{
@@ -36,17 +54,19 @@ public:
 
 		// Enable vertical sync (on cards that support it)
 		glfwSwapInterval( vsync?1:0 );
+	}
 
 
 
+	void loop(){
 		do
 		{
-			
+
 			t = glfwGetTime();
 
 			// Your update application logics procedure here ...
 			update(t);
-			
+
 			// Your rendering procedure here ...
 			render();
 
@@ -55,17 +75,8 @@ public:
 
 		} // Check if the ESC key was pressed or the window was closed
 		while( glfwGetKey( GLFW_KEY_ESC ) != GLFW_PRESS &&
-			   glfwGetWindowParam( GLFW_OPENED ) );
+			glfwGetWindowParam( GLFW_OPENED ) );
+	}
 
-		// Close OpenGL window and terminate GLFW
-		glfwTerminate();
-
-		exit( EXIT_SUCCESS );
-}
-
-
-
-
-	
 
 };
