@@ -4,6 +4,7 @@
 #include "GLFWApplication.h"
 
 
+
 class HelloOpenGLExample: public GLFWApplication
 {
 
@@ -17,18 +18,14 @@ class HelloOpenGLExample: public GLFWApplication
 
 	virtual void render(void){
 
-		// Get window size (may be different than the requested size)
-		glfwGetWindowSize( &width, &height );
-
-		// Special case: avoid division by zero below
-		height = height > 0 ? height : 1;
-
 		// Setup viewport
 		glViewport( 0, 0, width, height );
 
 		// Clear color buffer to black
+		
 		glClearColor( 0.0f, 0.0f, 0.0f, 0.0f );
 		glClear( GL_COLOR_BUFFER_BIT );
+		
 
 		// Select and setup the projection matrix
 		glMatrixMode( GL_PROJECTION );
@@ -55,9 +52,23 @@ class HelloOpenGLExample: public GLFWApplication
 		glEnd();
 	}
 
+	virtual void shutdown(void){
+
+	}
+
 };
 
+
 int main(void){
+	// Create application's instance
 	HelloOpenGLExample app;
-	app.start(800, 600, false, "Hello OpenGL!", true);
+	// Application's settings
+	app.width = 800;
+	app.height = 600;
+	app.title = "Hello OpenGL!";
+	app.fullscreen = false;
+	app.vsync = true;
+	app.showFPS = true;
+	// Start application
+	app.start();
 }
