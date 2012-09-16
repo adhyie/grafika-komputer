@@ -67,7 +67,7 @@ int main(void){
 	app.height = 600;
 	app.title = "Hello OpenGL!";
 	app.fullscreen = false;
-	app.vsync = true;
+	app.vsync = false;
 	app.showFPS = true;
 	// Start application
 	app.start();

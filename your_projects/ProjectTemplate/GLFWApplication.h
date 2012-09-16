@@ -10,6 +10,7 @@ private:
 	FTFont * defaultFont;
 	int old_fps;
 	char fps_string[40];
+
 protected:
 
 public:
@@ -19,7 +20,7 @@ public:
 	virtual void shutdown(void) = 0;
 	int width, height, fps, redbits, greenbits, bluebits, alphabits, stencilbits, depthbits;
 	double time, lasttime;
-	bool fullscreen, vsync, showFPS;
+	bool fullscreen, vsync, showFPS, showInfo;
 	const char * title;
 
 	void start(){
@@ -121,17 +122,18 @@ public:
 	void drawFPS(){
 		char fps_str[21];
 		itoa(old_fps, fps_str, 10);
-		strcpy(fps_string, "FPS: ");
+		strcpy(fps_string, "FPS : ");
 		strcat(fps_string, fps_str);
 		ortho();
-		drawString(fps_string, 5,5, 1.0, 1.0, 1.0);
+		glColor3f(1,1,1);
+		drawString(fps_string, 5,height-18);
 	}
 
 	void initDefaultFont(){
 		glClearColor(0.0, 0.0, 0.0, 0.0);
 		glPolygonMode(GL_FRONT_AND_BACK, GL_FILL);
 		defaultFont = new FTGLPixmapFont("C:\\Windows\\Fonts\\arial.ttf");
-		defaultFont->FaceSize(18);
+		setFontSize(18);
 	}
 
 	void ortho(){
@@ -182,11 +184,14 @@ public:
 		glLoadIdentity();
 	}
 
-	void drawString(const char *s, int x, int y, int r, int g, int b)
+	void drawString(const char *s, int x, int y)
 	{
-		glColor3f(r, g, b);
 		float h = defaultFont->LineHeight()/2+2;
 		glRasterPos2f(x-(width/2),-y+(height/2-h));
 		defaultFont->Render(s);
+	}
+
+	void setFontSize(int fontSize){
+	defaultFont->FaceSize(fontSize);
 	}
 };
