@@ -1,0 +1,21 @@
+﻿Build started 9/16/2012 5:08:22 PM.
+     1>Project "D:\GASAL_2012\Grafika_Komputer\ftgl-2.1.2\FTGL\win32_vcpp\ftgl_demo\ftgl_demo_2.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file ".\Release\ftgl_demo_2.lastbuildstate".
+       InitializeBuildStatus:
+         Touching ".\Release\ftgl_demo_2.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"D:\GASAL_2012\Grafika_Komputer\ftgl-2.1.2\FTGL\win32_vcpp\ftgl_demo\../../../freetype/include" /I..\..\include /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D NDEBUG /D WIN32 /D _CONSOLE /D FTGL_LIBRARY_STATIC /D _VC80_UPGRADE=0x0600 /D _MBCS /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release\\" /Fd".\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\demo\FTGLDemo.cpp
+         FTGLDemo.cpp
+     1>c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(353): error C2381: 'exit' : redefinition; __declspec(noreturn) differs
+                 D:\GASAL_2012\Grafika_Komputer\ftgl-2.1.2\FTGL\include\GL/glut.h(146) : see declaration of 'exit'
+     1>..\..\demo\FTGLDemo.cpp(121): error C3861: 'exit': identifier not found
+     1>..\..\demo\FTGLDemo.cpp(127): error C3861: 'exit': identifier not found
+     1>..\..\demo\FTGLDemo.cpp(140): error C3861: 'exit': identifier not found
+     1>..\..\demo\FTGLDemo.cpp(381): error C3861: 'exit': identifier not found
+     1>..\..\demo\FTGLDemo.cpp(478): error C3861: 'exit': identifier not found
+     1>Done Building Project "D:\GASAL_2012\Grafika_Komputer\ftgl-2.1.2\FTGL\win32_vcpp\ftgl_demo\ftgl_demo_2.vcxproj" (rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.16

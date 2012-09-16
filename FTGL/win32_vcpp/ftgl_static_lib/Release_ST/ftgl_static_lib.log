@@ -1,0 +1,242 @@
+﻿Build started 9/16/2012 5:05:49 PM.
+     1>Project "D:\GASAL_2012\Grafika_Komputer\ftgl-2.1.2\FTGL\win32_vcpp\ftgl_static_lib\ftgl_static_lib.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file ".\Release_ST\ftgl_static_lib.lastbuildstate".
+       InitializeBuildStatus:
+         Touching ".\Release_ST\ftgl_static_lib.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"D:\GASAL_2012\Grafika_Komputer\ftgl-2.1.2\FTGL\win32_vcpp\ftgl_static_lib\../../../freetype/include" /I..\..\include /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D NDEBUG /D WIN32 /D _LIB /D FTGL_LIBRARY_STATIC /D _VC80_UPGRADE=0x0600 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release_ST\\" /Fd".\Release_ST\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\FTBitmapGlyph.cpp ..\..\src\FTCharmap.cpp ..\..\src\FTContour.cpp ..\..\src\FTExtrdGlyph.cpp ..\..\src\FTFace.cpp ..\..\src\FTFont.cpp ..\..\src\FTGLBitmapFont.cpp ..\..\src\FTGLExtrdFont.cpp ..\..\src\FTGLOutlineFont.cpp ..\..\src\FTGLPixmapFont.cpp ..\..\src\FTGLPolygonFont.cpp ..\..\src\FTGLTextureFont.cpp ..\..\src\FTGlyph.cpp ..\..\src\FTGlyphContainer.cpp ..\..\src\FTLibrary.cpp ..\..\src\FTOutlineGlyph.cpp ..\..\src\FTPixmapGlyph.cpp ..\..\src\FTPoint.cpp ..\..\src\FTPolyGlyph.cpp ..\..\src\FTSize.cpp ..\..\src\FTTextureGlyph.cpp ..\..\src\FTVectoriser.cpp
+         FTBitmapGlyph.cpp
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(83): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(84): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(85): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(86): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(87): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(88): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>..\..\src\FTBitmapGlyph.cpp(54): warning C4244: 'argument' : conversion from 'FTGL_DOUBLE' to 'GLfloat', possible loss of data
+     1>..\..\src\FTBitmapGlyph.cpp(54): warning C4244: 'argument' : conversion from 'FTGL_DOUBLE' to 'GLfloat', possible loss of data
+     1>..\..\src\FTBitmapGlyph.cpp(62): warning C4244: 'argument' : conversion from 'FTGL_DOUBLE' to 'GLfloat', possible loss of data
+     1>..\..\src\FTBitmapGlyph.cpp(62): warning C4244: 'argument' : conversion from 'FTGL_DOUBLE' to 'GLfloat', possible loss of data
+         FTCharmap.cpp
+         FTContour.cpp
+     1>..\..\src\FTContour.cpp(81): warning C4244: 'argument' : conversion from 'FT_Pos' to 'float', possible loss of data
+     1>..\..\src\FTContour.cpp(81): warning C4244: 'argument' : conversion from 'FT_Pos' to 'float', possible loss of data
+     1>..\..\src\FTContour.cpp(104): warning C4244: '=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>..\..\src\FTContour.cpp(104): warning C4244: '=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>..\..\src\FTContour.cpp(105): warning C4244: '=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>..\..\src\FTContour.cpp(105): warning C4244: '=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>..\..\src\FTContour.cpp(106): warning C4244: '=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>..\..\src\FTContour.cpp(106): warning C4244: '=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>..\..\src\FTContour.cpp(121): warning C4244: '=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>..\..\src\FTContour.cpp(121): warning C4244: '=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>..\..\src\FTContour.cpp(122): warning C4244: '=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>..\..\src\FTContour.cpp(122): warning C4244: '=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>..\..\src\FTContour.cpp(123): warning C4244: '=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>..\..\src\FTContour.cpp(123): warning C4244: '=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>..\..\src\FTContour.cpp(137): warning C4244: '=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>..\..\src\FTContour.cpp(137): warning C4244: '=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>..\..\src\FTContour.cpp(138): warning C4244: '=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>..\..\src\FTContour.cpp(138): warning C4244: '=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>..\..\src\FTContour.cpp(139): warning C4244: '=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>..\..\src\FTContour.cpp(139): warning C4244: '=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>..\..\src\FTContour.cpp(140): warning C4244: '=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>..\..\src\FTContour.cpp(140): warning C4244: '=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+         FTExtrdGlyph.cpp
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(83): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(84): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(85): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(86): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(87): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(88): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>..\..\src\FTExtrdGlyph.cpp(53): warning C4244: 'argument' : conversion from 'FTGL_DOUBLE' to 'GLfloat', possible loss of data
+     1>..\..\src\FTExtrdGlyph.cpp(53): warning C4244: 'argument' : conversion from 'FTGL_DOUBLE' to 'GLfloat', possible loss of data
+     1>..\..\src\FTExtrdGlyph.cpp(57): warning C4244: 'argument' : conversion from 'FTGL_DOUBLE' to 'GLfloat', possible loss of data
+     1>..\..\src\FTExtrdGlyph.cpp(57): warning C4244: 'argument' : conversion from 'FTGL_DOUBLE' to 'GLfloat', possible loss of data
+     1>..\..\src\FTExtrdGlyph.cpp(77): warning C4244: 'argument' : conversion from 'FTGL_DOUBLE' to 'GLfloat', possible loss of data
+     1>..\..\src\FTExtrdGlyph.cpp(77): warning C4244: 'argument' : conversion from 'FTGL_DOUBLE' to 'GLfloat', possible loss of data
+     1>..\..\src\FTExtrdGlyph.cpp(81): warning C4244: 'argument' : conversion from 'FTGL_DOUBLE' to 'GLfloat', possible loss of data
+     1>..\..\src\FTExtrdGlyph.cpp(81): warning C4244: 'argument' : conversion from 'FTGL_DOUBLE' to 'GLfloat', possible loss of data
+     1>..\..\src\FTExtrdGlyph.cpp(110): warning C4244: 'argument' : conversion from 'FTGL_DOUBLE' to 'GLfloat', possible loss of data
+     1>..\..\src\FTExtrdGlyph.cpp(110): warning C4244: 'argument' : conversion from 'FTGL_DOUBLE' to 'GLfloat', possible loss of data
+     1>..\..\src\FTExtrdGlyph.cpp(112): warning C4244: 'argument' : conversion from 'FTGL_DOUBLE' to 'GLfloat', possible loss of data
+     1>..\..\src\FTExtrdGlyph.cpp(112): warning C4244: 'argument' : conversion from 'FTGL_DOUBLE' to 'GLfloat', possible loss of data
+     1>..\..\src\FTExtrdGlyph.cpp(113): warning C4244: 'argument' : conversion from 'FTGL_DOUBLE' to 'GLfloat', possible loss of data
+     1>..\..\src\FTExtrdGlyph.cpp(113): warning C4244: 'argument' : conversion from 'FTGL_DOUBLE' to 'GLfloat', possible loss of data
+     1>..\..\src\FTExtrdGlyph.cpp(118): warning C4244: 'argument' : conversion from 'FTGL_DOUBLE' to 'GLfloat', possible loss of data
+     1>..\..\src\FTExtrdGlyph.cpp(118): warning C4244: 'argument' : conversion from 'FTGL_DOUBLE' to 'GLfloat', possible loss of data
+     1>..\..\src\FTExtrdGlyph.cpp(120): warning C4244: 'argument' : conversion from 'FTGL_DOUBLE' to 'GLfloat', possible loss of data
+     1>..\..\src\FTExtrdGlyph.cpp(120): warning C4244: 'argument' : conversion from 'FTGL_DOUBLE' to 'GLfloat', possible loss of data
+     1>..\..\src\FTExtrdGlyph.cpp(121): warning C4244: 'argument' : conversion from 'FTGL_DOUBLE' to 'GLfloat', possible loss of data
+     1>..\..\src\FTExtrdGlyph.cpp(121): warning C4244: 'argument' : conversion from 'FTGL_DOUBLE' to 'GLfloat', possible loss of data
+     1>..\..\src\FTExtrdGlyph.cpp(142): warning C4244: 'argument' : conversion from 'FTGL_DOUBLE' to 'GLfloat', possible loss of data
+     1>..\..\src\FTExtrdGlyph.cpp(142): warning C4244: 'argument' : conversion from 'FTGL_DOUBLE' to 'GLfloat', possible loss of data
+     1>..\..\src\FTExtrdGlyph.cpp(155): warning C4244: 'initializing' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>..\..\src\FTExtrdGlyph.cpp(156): warning C4244: 'initializing' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+         FTFace.cpp
+     1>..\..\src\FTFace.cpp(24): warning C4800: 'FT_Long' : forcing value to bool 'true' or 'false' (performance warning)
+         FTFont.cpp
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(83): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(84): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(85): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(86): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(87): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(88): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+         FTGLBitmapFont.cpp
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(83): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(84): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(85): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(86): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(87): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(88): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+         FTGLExtrdFont.cpp
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(83): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(84): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(85): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(86): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(87): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(88): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+         FTGLOutlineFont.cpp
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(83): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(84): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(85): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(86): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(87): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(88): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+         FTGLPixmapFont.cpp
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(83): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(84): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(85): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(86): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(87): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(88): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+         FTGLPolygonFont.cpp
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(83): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(84): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(85): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(86): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(87): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(88): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+         FTGLTextureFont.cpp
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(83): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(84): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(85): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(86): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(87): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(88): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+         FTGlyph.cpp
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(83): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(84): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(85): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(86): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(87): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(88): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+         FTGlyphContainer.cpp
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(83): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(84): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(85): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(86): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(87): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(88): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>..\..\src\FTGlyphContainer.cpp(68): warning C4244: 'initializing' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>..\..\src\FTGlyphContainer.cpp(69): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+         FTLibrary.cpp
+         FTOutlineGlyph.cpp
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(83): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(84): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(85): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(86): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(87): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(88): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>..\..\src\FTOutlineGlyph.cpp(37): warning C4244: 'argument' : conversion from 'FTGL_DOUBLE' to 'GLfloat', possible loss of data
+     1>..\..\src\FTOutlineGlyph.cpp(37): warning C4244: 'argument' : conversion from 'FTGL_DOUBLE' to 'GLfloat', possible loss of data
+     1>..\..\src\FTOutlineGlyph.cpp(57): warning C4244: 'argument' : conversion from 'FTGL_DOUBLE' to 'GLfloat', possible loss of data
+     1>..\..\src\FTOutlineGlyph.cpp(57): warning C4244: 'argument' : conversion from 'FTGL_DOUBLE' to 'GLfloat', possible loss of data
+         FTPixmapGlyph.cpp
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(83): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(84): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(85): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(86): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(87): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(88): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>..\..\src\FTPixmapGlyph.cpp(60): warning C4244: 'argument' : conversion from 'FTGL_DOUBLE' to 'GLfloat', possible loss of data
+     1>..\..\src\FTPixmapGlyph.cpp(60): warning C4244: 'argument' : conversion from 'FTGL_DOUBLE' to 'GLfloat', possible loss of data
+     1>..\..\src\FTPixmapGlyph.cpp(70): warning C4244: 'argument' : conversion from 'FTGL_DOUBLE' to 'GLfloat', possible loss of data
+     1>..\..\src\FTPixmapGlyph.cpp(70): warning C4244: 'argument' : conversion from 'FTGL_DOUBLE' to 'GLfloat', possible loss of data
+         FTPoint.cpp
+         FTPolyGlyph.cpp
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(83): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(84): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(85): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(86): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(87): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(88): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>..\..\src\FTPolyGlyph.cpp(45): warning C4244: 'argument' : conversion from 'FTGL_DOUBLE' to 'GLfloat', possible loss of data
+     1>..\..\src\FTPolyGlyph.cpp(45): warning C4244: 'argument' : conversion from 'FTGL_DOUBLE' to 'GLfloat', possible loss of data
+     1>..\..\src\FTPolyGlyph.cpp(49): warning C4244: 'argument' : conversion from 'FTGL_DOUBLE' to 'GLfloat', possible loss of data
+     1>..\..\src\FTPolyGlyph.cpp(49): warning C4244: 'argument' : conversion from 'FTGL_DOUBLE' to 'GLfloat', possible loss of data
+     1>..\..\src\FTPolyGlyph.cpp(69): warning C4244: 'argument' : conversion from 'FTGL_DOUBLE' to 'GLfloat', possible loss of data
+     1>..\..\src\FTPolyGlyph.cpp(69): warning C4244: 'argument' : conversion from 'FTGL_DOUBLE' to 'GLfloat', possible loss of data
+         FTSize.cpp
+         Generating Code...
+         Compiling...
+         FTTextureGlyph.cpp
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(83): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(84): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(85): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(86): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(87): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTBBox.h(88): warning C4244: '+=' : conversion from 'FTGL_DOUBLE' to 'float', possible loss of data
+     1>..\..\src\FTTextureGlyph.cpp(66): warning C4244: 'argument' : conversion from 'FTGL_DOUBLE' to 'GLfloat', possible loss of data
+     1>..\..\src\FTTextureGlyph.cpp(66): warning C4244: 'argument' : conversion from 'FTGL_DOUBLE' to 'GLfloat', possible loss of data
+     1>..\..\src\FTTextureGlyph.cpp(69): warning C4244: 'argument' : conversion from 'FTGL_DOUBLE' to 'GLfloat', possible loss of data
+     1>..\..\src\FTTextureGlyph.cpp(69): warning C4244: 'argument' : conversion from 'FTGL_DOUBLE' to 'GLfloat', possible loss of data
+     1>..\..\src\FTTextureGlyph.cpp(70): warning C4244: 'argument' : conversion from 'FTGL_DOUBLE' to 'GLfloat', possible loss of data
+     1>..\..\src\FTTextureGlyph.cpp(70): warning C4244: 'argument' : conversion from 'FTGL_DOUBLE' to 'GLfloat', possible loss of data
+     1>..\..\src\FTTextureGlyph.cpp(72): warning C4244: 'argument' : conversion from 'FTGL_DOUBLE' to 'GLfloat', possible loss of data
+     1>..\..\src\FTTextureGlyph.cpp(72): warning C4244: 'argument' : conversion from 'FTGL_DOUBLE' to 'GLfloat', possible loss of data
+     1>..\..\src\FTTextureGlyph.cpp(73): warning C4244: 'argument' : conversion from 'FTGL_DOUBLE' to 'GLfloat', possible loss of data
+     1>..\..\src\FTTextureGlyph.cpp(73): warning C4244: 'argument' : conversion from 'FTGL_DOUBLE' to 'GLfloat', possible loss of data
+     1>..\..\src\FTTextureGlyph.cpp(75): warning C4244: 'argument' : conversion from 'FTGL_DOUBLE' to 'GLfloat', possible loss of data
+     1>..\..\src\FTTextureGlyph.cpp(75): warning C4244: 'argument' : conversion from 'FTGL_DOUBLE' to 'GLfloat', possible loss of data
+     1>..\..\src\FTTextureGlyph.cpp(76): warning C4244: 'argument' : conversion from 'FTGL_DOUBLE' to 'GLfloat', possible loss of data
+     1>..\..\src\FTTextureGlyph.cpp(76): warning C4244: 'argument' : conversion from 'FTGL_DOUBLE' to 'GLfloat', possible loss of data
+     1>..\..\src\FTTextureGlyph.cpp(78): warning C4244: 'argument' : conversion from 'FTGL_DOUBLE' to 'GLfloat', possible loss of data
+     1>..\..\src\FTTextureGlyph.cpp(78): warning C4244: 'argument' : conversion from 'FTGL_DOUBLE' to 'GLfloat', possible loss of data
+     1>..\..\src\FTTextureGlyph.cpp(79): warning C4244: 'argument' : conversion from 'FTGL_DOUBLE' to 'GLfloat', possible loss of data
+     1>..\..\src\FTTextureGlyph.cpp(79): warning C4244: 'argument' : conversion from 'FTGL_DOUBLE' to 'GLfloat', possible loss of data
+         FTVectoriser.cpp
+         Generating Code...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(D:\GASAL_2012\Grafika_Komputer\ftgl-2.1.2\FTGL\win32_vcpp\ftgl_static_lib\.\Release_ST\ftgl_static_lib.lib) does not match the Library's OutputFile property value (D:\GASAL_2012\Grafika_Komputer\ftgl-2.1.2\FTGL\win32_vcpp\Build\ftgl_static_MT.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1153,5): warning MSB8012: TargetName(ftgl_static_lib) does not match the Library's OutputFile property value (ftgl_static_MT). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"..\Build\ftgl_static_MT.lib" /NOLOGO .\Release_ST\FTBitmapGlyph.obj
+         .\Release_ST\FTCharmap.obj
+         .\Release_ST\FTContour.obj
+         .\Release_ST\FTExtrdGlyph.obj
+         .\Release_ST\FTFace.obj
+         .\Release_ST\FTFont.obj
+         .\Release_ST\FTGLBitmapFont.obj
+         .\Release_ST\FTGLExtrdFont.obj
+         .\Release_ST\FTGLOutlineFont.obj
+         .\Release_ST\FTGLPixmapFont.obj
+         .\Release_ST\FTGLPolygonFont.obj
+         .\Release_ST\FTGLTextureFont.obj
+         .\Release_ST\FTGlyph.obj
+         .\Release_ST\FTGlyphContainer.obj
+         .\Release_ST\FTLibrary.obj
+         .\Release_ST\FTOutlineGlyph.obj
+         .\Release_ST\FTPixmapGlyph.obj
+         .\Release_ST\FTPoint.obj
+         .\Release_ST\FTPolyGlyph.obj
+         .\Release_ST\FTSize.obj
+         .\Release_ST\FTTextureGlyph.obj
+         .\Release_ST\FTVectoriser.obj
+         ftgl_static_lib.vcxproj -> D:\GASAL_2012\Grafika_Komputer\ftgl-2.1.2\FTGL\win32_vcpp\ftgl_static_lib\.\Release_ST\ftgl_static_lib.lib
+       FinalizeBuildStatus:
+         Deleting file ".\Release_ST\ftgl_static_lib.unsuccessfulbuild".
+         Touching ".\Release_ST\ftgl_static_lib.lastbuildstate".
+     1>Done Building Project "D:\GASAL_2012\Grafika_Komputer\ftgl-2.1.2\FTGL\win32_vcpp\ftgl_static_lib\ftgl_static_lib.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:14.22

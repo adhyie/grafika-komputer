@@ -1,0 +1,19 @@
+﻿Build started 9/16/2012 5:13:26 PM.
+     1>Project "D:\GASAL_2012\Grafika_Komputer\ftgl-2.1.2\FTGL\win32_vcpp\ftgl_static_lib\ftgl_static_lib.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Debug_ST\ftgl_static_lib.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(D:\GASAL_2012\Grafika_Komputer\ftgl-2.1.2\FTGL\win32_vcpp\ftgl_static_lib\.\Debug_ST\ftgl_static_lib.lib) does not match the Library's OutputFile property value (D:\GASAL_2012\Grafika_Komputer\ftgl-2.1.2\FTGL\win32_vcpp\Build\ftgl_static_MT_d.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1153,5): warning MSB8012: TargetName(ftgl_static_lib) does not match the Library's OutputFile property value (ftgl_static_MT_d). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         All outputs are up-to-date.
+         ftgl_static_lib.vcxproj -> D:\GASAL_2012\Grafika_Komputer\ftgl-2.1.2\FTGL\win32_vcpp\ftgl_static_lib\.\Debug_ST\ftgl_static_lib.lib
+       FinalizeBuildStatus:
+         Deleting file ".\Debug_ST\ftgl_static_lib.unsuccessfulbuild".
+         Touching ".\Debug_ST\ftgl_static_lib.lastbuildstate".
+     1>Done Building Project "D:\GASAL_2012\Grafika_Komputer\ftgl-2.1.2\FTGL\win32_vcpp\ftgl_static_lib\ftgl_static_lib.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.17

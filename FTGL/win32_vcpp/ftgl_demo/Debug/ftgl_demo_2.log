@@ -1,0 +1,13 @@
+﻿Build started 9/16/2012 4:18:01 PM.
+     1>Project "D:\GASAL_2012\Grafika_Komputer\ftgl-2.1.2\FTGL\win32_vcpp\ftgl_demo\ftgl_demo_2.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Debug\ftgl_demo_2.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"D:\GASAL_2012\Grafika_Komputer\ftgl-2.1.2\FTGL\win32_vcpp\ftgl_demo\../../../freetype/include" /I..\..\include /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D WIN32 /D _CONSOLE /D FTGL_LIBRARY_STATIC /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\demo\FTGLDemo.cpp
+         FTGLDemo.cpp
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\demo\ftgldemo.cpp(4): fatal error C1083: Cannot open include file: 'GL/glut.h': No such file or directory
+     1>Done Building Project "D:\GASAL_2012\Grafika_Komputer\ftgl-2.1.2\FTGL\win32_vcpp\ftgl_demo\ftgl_demo_2.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.72

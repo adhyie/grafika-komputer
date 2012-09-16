@@ -1,0 +1,58 @@
+﻿Build started 9/16/2012 4:48:25 PM.
+     1>Project "D:\GASAL_2012\Grafika_Komputer\ftgl-2.1.2\FTGL\win32_vcpp\ftgl_dll\ftgl_dll.vcxproj" on node 2 (rebuild target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Release_MT\ftgl_dll.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"D:\cots\freetype-2.0.5\include" /I..\..\include /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D NDEBUG /D WIN32 /D _WINDOWS /D _USRDLL /D FTGL_LIBRARY /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release_MT\\" /Fd".\Release_MT\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\FTBitmapGlyph.cpp ..\..\src\FTCharmap.cpp ..\..\src\FTContour.cpp ..\..\src\FTExtrdGlyph.cpp ..\..\src\FTFace.cpp ..\..\src\FTFont.cpp ..\..\src\FTGLBitmapFont.cpp ..\..\src\FTGLExtrdFont.cpp ..\..\src\FTGLOutlineFont.cpp ..\..\src\FTGLPixmapFont.cpp ..\..\src\FTGLPolygonFont.cpp ..\..\src\FTGLTextureFont.cpp ..\..\src\FTGlyph.cpp ..\..\src\FTGlyphContainer.cpp ..\..\src\FTLibrary.cpp ..\..\src\FTOutlineGlyph.cpp ..\..\src\FTPixmapGlyph.cpp ..\..\src\FTPoint.cpp ..\..\src\FTPolyGlyph.cpp ..\..\src\FTSize.cpp ..\..\src\FTTextureGlyph.cpp ..\..\src\FTVectoriser.cpp
+         FTBitmapGlyph.cpp
+     1>D:\GASAL_2012\Grafika_Komputer\ftgl-2.1.2\FTGL\include\FTBitmapGlyph.h(5): fatal error C1083: Cannot open include file: 'ft2build.h': No such file or directory
+         FTCharmap.cpp
+     1>D:\GASAL_2012\Grafika_Komputer\ftgl-2.1.2\FTGL\include\FTFace.h(4): fatal error C1083: Cannot open include file: 'ft2build.h': No such file or directory
+         FTContour.cpp
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTPoint.h(4): fatal error C1083: Cannot open include file: 'ft2build.h': No such file or directory
+         FTExtrdGlyph.cpp
+     1>D:\GASAL_2012\Grafika_Komputer\ftgl-2.1.2\FTGL\include\FTExtrdGlyph.h(4): fatal error C1083: Cannot open include file: 'ft2build.h': No such file or directory
+         FTFace.cpp
+     1>D:\GASAL_2012\Grafika_Komputer\ftgl-2.1.2\FTGL\include\FTFace.h(4): fatal error C1083: Cannot open include file: 'ft2build.h': No such file or directory
+         FTFont.cpp
+     1>D:\GASAL_2012\Grafika_Komputer\ftgl-2.1.2\FTGL\include\FTFace.h(4): fatal error C1083: Cannot open include file: 'ft2build.h': No such file or directory
+         FTGLBitmapFont.cpp
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTFont.h(4): fatal error C1083: Cannot open include file: 'ft2build.h': No such file or directory
+         FTGLExtrdFont.cpp
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTFont.h(4): fatal error C1083: Cannot open include file: 'ft2build.h': No such file or directory
+         FTGLOutlineFont.cpp
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTFont.h(4): fatal error C1083: Cannot open include file: 'ft2build.h': No such file or directory
+         FTGLPixmapFont.cpp
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTFont.h(4): fatal error C1083: Cannot open include file: 'ft2build.h': No such file or directory
+         FTGLPolygonFont.cpp
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTFont.h(4): fatal error C1083: Cannot open include file: 'ft2build.h': No such file or directory
+         FTGLTextureFont.cpp
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTFont.h(4): fatal error C1083: Cannot open include file: 'ft2build.h': No such file or directory
+         FTGlyph.cpp
+     1>D:\GASAL_2012\Grafika_Komputer\ftgl-2.1.2\FTGL\include\FTGlyph.h(4): fatal error C1083: Cannot open include file: 'ft2build.h': No such file or directory
+         FTGlyphContainer.cpp
+     1>D:\GASAL_2012\Grafika_Komputer\ftgl-2.1.2\FTGL\include\FTGlyphContainer.h(4): fatal error C1083: Cannot open include file: 'ft2build.h': No such file or directory
+         FTLibrary.cpp
+     1>D:\GASAL_2012\Grafika_Komputer\ftgl-2.1.2\FTGL\include\FTLibrary.h(4): fatal error C1083: Cannot open include file: 'ft2build.h': No such file or directory
+         FTOutlineGlyph.cpp
+     1>D:\GASAL_2012\Grafika_Komputer\ftgl-2.1.2\FTGL\include\FTOutlineGlyph.h(4): fatal error C1083: Cannot open include file: 'ft2build.h': No such file or directory
+         FTPixmapGlyph.cpp
+     1>D:\GASAL_2012\Grafika_Komputer\ftgl-2.1.2\FTGL\include\FTPixmapGlyph.h(5): fatal error C1083: Cannot open include file: 'ft2build.h': No such file or directory
+         FTPoint.cpp
+     1>D:\GASAL_2012\Grafika_Komputer\ftgl-2.1.2\FTGL\include\FTPoint.h(4): fatal error C1083: Cannot open include file: 'ft2build.h': No such file or directory
+         FTPolyGlyph.cpp
+     1>D:\GASAL_2012\Grafika_Komputer\ftgl-2.1.2\FTGL\include\FTPolyGlyph.h(5): fatal error C1083: Cannot open include file: 'ft2build.h': No such file or directory
+         FTSize.cpp
+     1>D:\GASAL_2012\Grafika_Komputer\ftgl-2.1.2\FTGL\include\FTSize.h(5): fatal error C1083: Cannot open include file: 'ft2build.h': No such file or directory
+         Generating Code...
+         Compiling...
+         FTTextureGlyph.cpp
+     1>D:\GASAL_2012\Grafika_Komputer\ftgl-2.1.2\FTGL\include\FTTextureGlyph.h(5): fatal error C1083: Cannot open include file: 'ft2build.h': No such file or directory
+         FTVectoriser.cpp
+     1>d:\gasal_2012\grafika_komputer\ftgl-2.1.2\ftgl\include\FTPoint.h(4): fatal error C1083: Cannot open include file: 'ft2build.h': No such file or directory
+         Generating Code...
+     1>Done Building Project "D:\GASAL_2012\Grafika_Komputer\ftgl-2.1.2\FTGL\win32_vcpp\ftgl_dll\ftgl_dll.vcxproj" (rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:04.50
